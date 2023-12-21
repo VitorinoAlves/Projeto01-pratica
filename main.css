@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #00258b;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Alfa Slab One', serif;
+}
+
+header nav li{
+    display: inline;
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Alfa Slab One', serif;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos-list img{
+    height: 24px;
+}
+
+.logos-list li{
+    display: inline;
+}
+
+.banner-image{
+    height: 400px;
+    margin-right: 16px;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section h2,
+h3{
+    font-family: 'Alfa Slab One', serif;
+    margin-bottom: 16px;
+    color: #00258b;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    padding: 8px;
+    margin-bottom: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form button{
+    font-weight: normal;
+    background-color: #00258b;
+    color: #fff;
+    font-family: 'Alfa Slab One', serif;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+form button:hover{
+    background-color: #063eda;
+}
+
+input:focus, textarea:focus{
+    outline-color: #00258b;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #00258b;
+    color: #fff;
+    padding: 16px 0;
+}
